@@ -184,7 +184,7 @@ nav > ul > li{
     background: rgba(233, 68, 68, 0.05);
     padding: 20px;
     margin: auto;
-    width: 600px;
+    width: 400px;
 }
 /* slatter part */
 .newslater{
@@ -252,7 +252,7 @@ nav > ul > li{
 /* footer part start here */
 footer{
     background: rgba(19, 19, 24, 0.05);
-    width: 1350px;
+    
     height: 400px;
     margin-left: -120px;
 }
@@ -260,7 +260,7 @@ footer h1 i{
     color: #FF5400;
 }
 .footer-container{
-    width: 500px;
+    width: 400px;
     text-align: center;
     margin: auto;
     padding-top: 100px;
@@ -279,7 +279,7 @@ footer h1 i{
     }
     nav > ul{
         flex-direction: column;
-        margin-left:-300px;
+        
         
 
     }
@@ -293,7 +293,7 @@ footer h1 i{
         
     }
     .banner-button button{
-        width: 400px;
+        width:100%;
         padding: 10px;
         
     }
@@ -328,8 +328,33 @@ footer h1 i{
         left: 150px;
     }
     .footer{
-        width: -600px;
+       
         text-align: center;
+       
+    }
+    .img-div-slatter img{
+        width: 100%;
+    }
+    .choice-title>p{
+        width: 100%;
+    }
+    .services-part-3{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .img-div-slatter{
+        width: 100%;
+    }
+    .destination-head-part{
+        width: 100%;
+    }
+    .discount-part{
+        width: 50%;
+        position: relative;
+    }
+    .footer-container{
+        width:100%;
     }
     
 }
